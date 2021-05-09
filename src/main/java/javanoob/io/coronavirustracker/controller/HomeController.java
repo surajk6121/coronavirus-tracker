@@ -18,6 +18,7 @@ public class HomeController {
 
     model.addAttribute("locationStats", coronavirusDataService.getAllStats());
     model.addAttribute("totalReportedCases", coronavirusDataService.getTotalReportedCases());
+
     return "home";
   }
 

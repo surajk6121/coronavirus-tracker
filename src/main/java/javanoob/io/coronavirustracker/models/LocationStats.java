@@ -8,6 +8,16 @@ public class LocationStats {
 
   private int totalCases;
 
+  private int dailyChange;
+
+  public int getDailyChange() {
+    return dailyChange;
+  }
+
+  public void setDailyChange(int dailyChange) {
+    this.dailyChange = dailyChange;
+  }
+
   public String getState() {
     return state;
   }
